@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+}
+
+/* header */
+
+.header {
+  position: fixed;
+  width: 140px;
+  height: 100%;
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.menu > li > a {
+  display: block;
+  padding: 12px 24px;
+  font-size: 1.6rem;
+}
+
+.menu > li > a:hover {
+  background-color: #f17158;
+}
+
+/* container */
+
+.control {
+  background-color: var(--primary);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.container {
+  flex: 1;
+  margin-left: 140px;
+}
+
+.nav,.table {
+  min-height: 400px;
+  margin: 20px 20px;
+}
+
+/* table  */
+
+.inner-table {
+  width: 100%;
+  flex: 1;
+}
+
+.inner-table,
+td {
+  border: 1px solid var(--primary);
+}
+
+.inner-table td {
+  padding: 6px 24px;
+  text-align: center;
+}
+
+.show-user {
+  min-height: 400px;
+  padding: 24px 24px;
+}

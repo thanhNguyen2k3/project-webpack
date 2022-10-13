@@ -1,0 +1,113 @@
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+  padding: 32px 42px;
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.back-home > a {
+  text-decoration: underline;
+  color: var(--primary);
+  padding: 20px;
+  display: inline-block;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 1.4rem;
+}
+
+.form-input {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1.6rem;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.error {
+  margin-top: 6px;
+  color: rgb(255, 53, 53);
+}
+
+.handel-submit {
+  width: 120px;
+  height: 40px;
+  background-color: var(--primary);
+  margin: 0 auto;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.6rem;
+}
+
+.user {
+  padding: 0 8px;
+}
+
+.user > a {
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+.check > a {
+  font-size: 1.4rem;
+  margin: 0 6px;
+}
+
+/* Login success */
+
+.info-user {
+  background-color: var(--white);
+  width: 400px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+
+}
+
+.user-login {
+  text-align: center;
+  margin: 0 6px;
+}
+
+.user > span {
+  margin: 0 6px;
+  font-size: 1.3rem;
+}
+
+.error-login,
+.success-login {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 151, 151);
+  padding: 6px 12px;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.success-login {
+  background-color: rgb(84, 255, 115);
+}
+
+.suggest {
+  margin-top: 12px;
+}

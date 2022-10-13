@@ -1,0 +1,193 @@
+/*  */
+
+.type-1 {
+  position: relative;
+  background-color: #59cca6;
+  padding: 10% 46px;
+}
+
+.type-2 {
+  position: relative;
+  background-color: #91ad41;
+  padding: 10% 46px;
+}
+
+.type-3 {
+  position: relative;
+  background-color: #e3b375;
+  padding: 10% 46px;
+}
+
+.type-4 {
+  position: relative;
+  background-color: #ef7f94;
+  padding: 10% 46px;
+}
+
+.container {
+  --margin-left-right: 10px;
+  --margin-top-bottom: 10px;
+
+  padding-top: 30px;
+}
+
+.banner {
+  display: flex;
+}
+
+.banner-item > img,
+.banner-right > img {
+  width: 100%;
+}
+
+.banner-right > img {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.banner-left {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.banner-item {
+  transform: translate3d(0, 0, 0);
+  display: flex;
+  transition: 0.6s;
+}
+
+/* Banner item */
+
+
+/*  */
+
+.banner-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-img {
+  padding: 0 var(--padding-top-bottom);
+}
+
+/* owl item */
+
+.owl-list {
+  position: absolute;
+  display: flex;
+  bottom: 16px;
+  justify-content: center;
+  width: 100%;
+}
+
+.owl-list > span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 4px;
+  border: 1px solid #89898966;
+  background-color: #ffffff66;
+  cursor: pointer;
+}
+
+/* Food type */
+
+.food-type {
+  cursor: pointer;
+}
+
+.food-type:hover::before {
+  opacity: 1;
+}
+
+.food-type::before {
+  opacity: 0;
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: 0.4s;
+}
+
+.food-content {
+  color: var(--white);
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  line-height: 1.6;
+  height: 238px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*  */
+
+.content-header {
+  margin: 60px 0px 26px var(--margin-left-right);
+  text-transform: uppercase;
+}
+
+.list-item {
+  display: grid;
+  background-color: var(--white);
+  padding: 16px;
+  grid-template-columns: 288px 288px 288px 288px;
+  gap: 16px;
+}
+
+/* Ẩm thực */
+
+.food-item {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.food-item:hover {
+  box-shadow: 0 0 6px var(--primary);
+}
+
+.item-img {
+  height: 279px;
+  overflow: hidden;
+}
+
+.item-img > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.inform-food {
+  margin: var(--margin-top-bottom) var(--margin-left-right);
+}
+
+.title-food {
+  font-size: 1.6rem;
+}
+
+.food-location {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+
+.handel-view {
+  color: var(--white);
+  border-radius: 4px;
+  font-size: 1.6rem;
+  background-color: var(--primary);
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.handel-view:hover {
+  opacity: 0.6;
+}
+
+.owl.active {
+  background-color: var(--primary);
+}
