@@ -49,7 +49,7 @@ if (isset($_POST["handel-add"])) {
     }
 
     if (!$error) {
-        $sql_upload = " INSERT INTO product(product_name, image, price, detail, select_id) VALUES ('$name', '$target_file', '$price', '$detail',  '$select') ";
+        $sql_upload = "INSERT INTO product(product_name, image, price, detail, select_id) VALUES ('$name', '$target_file', '$price', '$detail',  '$select')";
 
         $conn->exec($sql_upload);
     }

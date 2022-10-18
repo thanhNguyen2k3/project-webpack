@@ -32,6 +32,11 @@ if(isset($_GET['act'])) {
             # code...
             break;
 
+        case 'comment':
+            include 'comment/comment.php';
+            # code...
+            break;
+
         default:
             include 'container.php';
             break;

@@ -27,6 +27,11 @@
   font-weight: 500;
   font-size: 1.6rem;
   margin-top: 6px;
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .pro-local {
@@ -118,9 +123,7 @@ textarea:focus {
 /* detail product css */
 
 .detail-product {
-  display: flex;
   line-height: 2;
-  height: 400px;
   align-items: center;
   background-color: var(--white);
 
@@ -154,6 +157,15 @@ textarea:focus {
   padding: 6px 12px;
   border-radius: 3px;
   font-size: 1.4rem;
+}
+
+.detail-product-row {
+  padding: 12px 36px;
+}
+
+.detail-product-row h2 {
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 /* cart */
@@ -201,3 +213,53 @@ textarea:focus {
   text-align: center;
   padding: 6px 12px;
 }
+
+/* comment */
+
+.user-sta {
+  background-color: var(--white);
+  padding: 20px 36px;
+}
+
+.user-sta > h4 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+ 
+.user-cmt {
+  display: flex;
+  padding: 14px 0;
+}
+
+.img-user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: #ccc;
+  
+}
+
+.detail-user {
+  margin-left: 12px;
+}
+
+.time {
+  color: #0000008a;
+  font-size: 1.2rem;
+}
+
+.cmt {
+  font-size: 1.6rem;
+} 
+
+.input-cmt {
+ border: 1px solid #ccc;
+  padding: 12px 24px;
+  font-size: 1.6rem;
+  width: 100%;
+  border-radius: 999px;
+  margin: 12px 0;
+}
+

@@ -48,7 +48,7 @@ if (isset($_POST["handel-add"])) {
     }
 
     if (!$error) {
-        $sql_upload = " INSERT INTO product(product_name, image, price, detail, select_id) VALUES ('$name', '$target_file', '$price', '$detail',  '$select') ";
+        $sql_upload = "INSERT INTO product(product_name, image, price, detail, select_id) VALUES ('$name', '$target_file', '$price', '$detail',  '$select')";
 
         $conn->exec($sql_upload);
     }
@@ -96,7 +96,7 @@ if (isset($_POST["handel-add"])) {
 
     <div class="post-item">
         <label class="name-item">Mô tả chi tiết sản phẩm</label>
-        <textarea name="detail" id="" cols="30" rows="10"></textarea>
+        <input name="detail" ></input>
         <p class="error"><?php echo isset($error["detail_er"]) ? $error["detail_er"] : ""; ?></p>
     </div>
 

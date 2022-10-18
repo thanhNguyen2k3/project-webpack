@@ -33,7 +33,7 @@ if ($count == 0) {
                 <td>Tên sản phẩm</td>
                 <td>Ảnh sản phẩm</td>
                 <td>Số lượng</td>
-                <td>Giá</td>
+                <td>Tổng giá</td>
             </tr>
 
             <?php foreach ($result as $key => $value) { ?>
@@ -42,7 +42,7 @@ if ($count == 0) {
                     <td><?php echo $value['cart_name'] ?></td>
                     <td><img src="<?php echo $value['image'] ?>" alt="SP" width="100" height="100"></td>
                     <td><?php echo $value['quantity'] ?></td>
-                    <td><?php echo $value['price'] ?></td>
+                    <td><?php echo ($value['price'] * $value['quantity'])  ?>$</td>
                     <td><a class="handel-delete" href="javascript:confirmDelete('user/product/deletecart.php?id=<?php echo $value["id"] ?>')">Xóa</a></td>
                 </tr>
 

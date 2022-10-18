@@ -33,7 +33,7 @@ include 'connect/connect.php';
 
     <link rel="stylesheet" href="user/assets/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css" />
 
-    <title>Shop Food</title>
+    <title>Shop Bán hàng</title>
 </head>
 
 <body>
@@ -87,12 +87,10 @@ include 'connect/connect.php';
                         <a href="index.php?act=intro">Giới thiệu</a>
                     </li>
                     <li>
-                        <a href="index.php?act=product">Sản phẩm<i class="fa-solid fa-angle-down"></i></a>
+                        <a href="index.php?act=product">Sản phẩm</i></a>
 
                     </li>
-                    <li>
-                        <a href="index.php?act=post">Bài viết</a>
-                    </li>
+                    
                     <li><a href="index.php?act=contact">Liên hệ</a></li>
                 </ul>
 

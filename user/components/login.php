@@ -62,7 +62,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <?php
 
             if (isset($_SESSION["user_name"])) {
-
                 echo "<p class='success-login' >Bạn đã đăng nhập thành công</p>";
             } else {
                 echo "<p class='error-login' >Tên đăng nhập hoặc mật khẩu sai </p>";

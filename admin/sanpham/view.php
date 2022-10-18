@@ -32,7 +32,7 @@ if (isset($_POST['check_list'])) {
             <td>Tên sản phẩm</td>
             <td>Loại sản phẩm</td>
             <td>Ảnh sản phẩm</td>
-            <td>Giá sản phẩm</td>]
+            <td>Giá sản phẩm</td>
             <td>Mô tả chi tiết sản phẩm</td>
         </tr>
 

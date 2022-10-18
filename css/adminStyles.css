@@ -57,6 +57,7 @@ td {
 .inner-table td {
   padding: 6px 24px;
   text-align: center;
+  word-break: break-all;
 }
 
 .show-user {

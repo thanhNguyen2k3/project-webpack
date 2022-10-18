@@ -108,7 +108,7 @@ if (isset($_POST["handel-edit"])) {
 
     <div class="post-item">
         <label class="name-item">Mô tả chi tiết sản phẩm</label>
-        <input name="detail" value="<?php echo $row["detail"];?>"></input>
+        <textarea name="detail" id="" cols="30" rows="10"><?php echo $row["detail"]; ?></textarea>
         <p class="error"><?php echo isset($error["detail_er"]) ? $error["detail_er"] : ""; ?></p>
     </div>
 
