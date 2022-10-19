@@ -1,0 +1,13 @@
+.contact {
+    width: 600px;
+    max-width: 100%;
+}
+
+.form-contact {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 20px;
+    flex-direction: column;
+}

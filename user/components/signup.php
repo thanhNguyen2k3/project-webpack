@@ -66,6 +66,12 @@ if (isset($_POST["sign_up"])) {
         $sql = "INSERT INTO sign_up VALUES (null, '$username', '$email', '$password' ) ";
         $result = $conn->exec($sql);
 
+        session_start();
+
+        session_regenerate_id();
+
+        $_SESSION["email"] = $email;
+
         header("location:login.php");
     }
 } else {
@@ -88,7 +94,7 @@ if (isset($_POST["sign_up"])) {
 
 <body>
 
-    
+
     <form id="form" action="" method="POST">
         <h2 class="back-home"><a href="../../index.php">Trở về trang chủ</a></h2>
         <div class="form-control">

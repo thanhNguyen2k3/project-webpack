@@ -30,10 +30,11 @@
         <header class="header">
             <ul class="menu">
                 <li><a href="../index.php">Trang chủ</a></li>
-                <li><a href="index.php?act=sp">Sản phẩm</a></li>
+                <li><a href="index.php?act=sp">Thêm Sản phẩm</a></li>
                 <li><a href="index.php?act=quanlysp">Quản lý sản phẩm</a></li>
                 <li><a href="index.php?act=qluser">Khách hàng</a></li>
                 <li><a href="index.php?act=comment">Bình luận</a></li>
+                <li><a href="index.php?act=contact">Quản lý liên hệ</a></li>
                 <li><a href="index.php?act=thongke">Thống kê</a></li>
             </ul>
         </header>

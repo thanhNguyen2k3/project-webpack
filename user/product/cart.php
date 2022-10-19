@@ -14,7 +14,7 @@ $count = $result->rowCount();
 
 
 if ($count == 0) {
-    $message = "Chưa có sản phẩm nào được them vào giỏi hàng của bạn";
+    $message = "Chưa có sản phẩm nào được thêm vào giỏ hàng của bạn";
 }
 
 

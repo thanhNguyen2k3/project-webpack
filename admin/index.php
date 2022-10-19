@@ -37,6 +37,11 @@ if(isset($_GET['act'])) {
             # code...
             break;
 
+        case 'contact':
+            include 'contact/contact.php';
+            # code...
+            break;
+
         default:
             include 'container.php';
             break;

@@ -22,6 +22,7 @@ include 'connect/connect.php';
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/intro.css">
     <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

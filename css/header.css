@@ -81,6 +81,10 @@
   margin-right: 18px;
 }
 
+.nav > li > a.active {
+  border-bottom: 1px solid;
+}
+
 .actions {
   display: flex;
   color: var(--white);

@@ -54,8 +54,8 @@
         }
     }
 </script>
-<script src="user/js/search.js"></script>
-<script src="user/js/slideShow.js"></script>
+<script src="js/search.js"></script>
+<script src="js/slideShow.js"></script>
 
 </body>
 
